@@ -13,6 +13,8 @@ public class OrderTests
 		// Act
 		var order = Order.Create(customerId);
 
+		//haaa haaa
+		
 		// Assert
 		Assert.NotEqual(Guid.Empty, order.Id);
 		Assert.Equal(customerId, order.CustomerId);
